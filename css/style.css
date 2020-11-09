@@ -1,0 +1,131 @@
+
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------HEADER-------------*/
+
+header{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header #info{
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+header #info h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+header #brain{
+    margin: auto;
+    visibility: hidden;
+}
+
+header #brain img{
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
+
+@media screen and (max-width: ){
+
+}
+
+nav{
+    height: 100%;
+    width: 20%;
+    background-color: #45489a;
+    color: white;
+    float: left;
+    position: fixed;
+}
+nav #sommary{
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav h2{
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+    border:1px solid rgba(250,250,250,0.5);
+}
+
+
+
+
+
+
+nav div#content{
+    border-top: 1px solid white;
+    height: 100%;
+    background-color: rgba(12,12,12,0.9);
+}
+
+nav #content ul{
+    text-align: left;
+    height: 100%;
+    margin-left: 50px;
+    position: relative;
+    top: 25%;
+    line-height: 50px;
+    list-style: none;
+
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1400px){
+    nav h2{
+        padding: 30px 30px 30px 30px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    nav {
+        visibility: hidden;
+    }
+    main{
+        margin-left: 0;
+    }
+    header{
+        background-image: none;
+        background-color: #242128;
+    }
+    header #info{
+        z-index: 1;
+        right: unset;
+        top: unset;
+        width: 100%;
+        padding-top: 100px;
+    }
+    header #brain{
+        z-index: 0;
+        visibility: visible;
+        padding-top: 300px;
+    }
+
+}
