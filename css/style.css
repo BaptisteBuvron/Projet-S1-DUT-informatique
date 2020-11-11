@@ -43,9 +43,7 @@ header #brain img{
 }
 
 
-@media screen and (max-width: ){
 
-}
 
 nav{
     height: 100%;
@@ -54,6 +52,7 @@ nav{
     color: white;
     float: left;
     position: fixed;
+    z-index: 1;
 }
 nav #sommary{
     margin-top: 20px;
@@ -93,9 +92,11 @@ nav #content ul{
 
 main{
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 22%;
     padding: 10px;
 }
+
+
 
 
 @media screen and (max-width: 1400px){
@@ -127,5 +128,102 @@ main{
         visibility: visible;
         padding-top: 300px;
     }
+
+
+}
+
+/** SECTION**/
+main p {
+    line-height: 1.6;
+}
+
+main a{
+    text-decoration: none;
+    color: #0645ad;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a:visited {
+    color: #0b0080;
+}
+
+main section{
+    /*border-bottom: 1px solid rgba(42,42,42,0.5);*/
+}
+
+main section .flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+main section .flex div{
+    width: 40%;
+    min-width: 400px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 25px;
+}
+
+main section .flex p{
+    text-align: justify;
+}
+
+main section img{
+    width: 80px;
+    height: auto;
+}
+
+main li{
+    margin: 20px;
+}
+
+main .center{
+    text-align: center;
+}
+
+section.grey{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: none;
+}
+
+footer{
+    margin-top: 50px;
+    margin-left: 22%;
+}
+
+
+@media screen and (max-width: 1000px){
+    nav {
+        visibility: hidden;
+    }
+    main{
+        margin-left: 0;
+    }
+    header{
+        background-image: none;
+        background-color: #242128;
+    }
+    header #info{
+        z-index: 1;
+        right: unset;
+        top: unset;
+        width: 100%;
+        padding-top: 100px;
+    }
+    header #brain{
+        z-index: 0;
+        visibility: visible;
+        padding-top: 300px;
+    }
+    footer{
+        margin-left: 0;
+    }
+
 
 }
