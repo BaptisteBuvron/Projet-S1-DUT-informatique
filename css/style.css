@@ -135,6 +135,7 @@ main{
 /** SECTION**/
 main p {
     line-height: 1.6;
+    font-size: 1em;
 }
 
 main a{
@@ -162,7 +163,7 @@ main section .flex{
 }
 
 main section .flex div{
-    width: 40%;
+    width: 40vw;
     min-width: 400px;
     margin-left: 1.5%;
     margin-right: 1.5%;
