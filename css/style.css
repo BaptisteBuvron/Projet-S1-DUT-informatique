@@ -4,6 +4,7 @@ html, body{
     padding: 0px;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*---------HEADER-------------*/
@@ -39,7 +40,8 @@ header #brain{
 header #brain img{
     margin: auto;
     display: block;
-    width: 400px;
+    height: auto;
+    width: 250px;
 }
 
 
@@ -92,8 +94,8 @@ nav #content ul{
 
 main{
     margin-top: 20px;
-    margin-left: 22%;
-    padding: 10px;
+    margin-left: 20%;
+    padding: 50px;
 }
 
 
@@ -121,12 +123,12 @@ main{
         right: unset;
         top: unset;
         width: 100%;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     header #brain{
         z-index: 0;
         visibility: visible;
-        padding-top: 300px;
+        padding-top: 5%;
     }
 
 
@@ -135,7 +137,7 @@ main{
 /** SECTION**/
 main p {
     line-height: 1.6;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 main a{
@@ -159,7 +161,6 @@ main section .flex{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
 }
 
 main section .flex div{
@@ -197,6 +198,10 @@ footer{
     margin-left: 22%;
 }
 
+.margin{
+    margin-left: 20px;
+}
+
 
 @media screen and (max-width: 1000px){
     nav {
@@ -214,12 +219,12 @@ footer{
         right: unset;
         top: unset;
         width: 100%;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     header #brain{
         z-index: 0;
         visibility: visible;
-        padding-top: 300px;
+        padding-top: 200px;
     }
     footer{
         margin-left: 0;
