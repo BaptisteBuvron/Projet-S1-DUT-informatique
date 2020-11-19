@@ -5,7 +5,6 @@ function goBack(){
 var menu = false;
 
 function menuToggle(){
-    console.log("test")
     if (menu == false ){
         $('nav').css("transform", "translateX(0%)");
         menu = true;
@@ -16,3 +15,12 @@ function menuToggle(){
     }
 }
 
+
+
+window.onresize = function(event) {
+    if ($(window).width() >= 1000){
+        $('nav').css("transform", "translateX(0%)");
+        menu = true;
+    }
+
+};
