@@ -45,17 +45,28 @@ header #brain img{
 }
 
 
+header #menu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+    width: 50px;
+    height: auto;
+}
 
 
 nav{
+    z-index: 999;
     height: 100%;
-    width: 20%;
+    width: 400px;
     background-color: #45489a;
     color: white;
     float: left;
     position: fixed;
-    z-index: 1;
+    transition: transform 600ms ease;
+
 }
+
 nav #sommary{
     margin-top: 20px;
     height: 150px;
@@ -94,7 +105,7 @@ nav div#content{
 nav #content ul{
     text-align: left;
     height: 100%;
-    margin-left: 50px;
+    margin-left: 30px;
     position: relative;
     top: 25%;
     line-height: 50px;
@@ -104,45 +115,50 @@ nav #content ul{
 
 main{
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 400px;
     padding: 50px;
+    transition: margin-left 600ms ease;
+
 }
 
 
 
-
-@media screen and (max-width: 1400px){
-    nav h2{
-        padding: 30px 30px 30px 30px;
-    }
-}
 
 @media screen and (max-width: 1000px){
+    header #menu{
+        visibility: visible;
+    }
     nav {
-        visibility: hidden;
+        transform: translateX(-200%);
+        transition: transform 600ms ease;
     }
     main{
         margin-left: 0;
+        transition: margin-left 600ms ease;
+
     }
     header{
         background-image: none;
         background-color: #242128;
     }
     header #info{
-        z-index: 1;
         right: unset;
         top: unset;
         width: 100%;
         padding-top: 50px;
     }
     header #brain{
-        z-index: 0;
         visibility: visible;
-        padding-top: 5%;
+        padding-top: 200px;
+    }
+    footer{
+        margin-left: 0;
     }
 
 
+
 }
+
 
 /** SECTION**/
 main p {
@@ -211,36 +227,7 @@ footer{
 }
 
 .margin{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
-@media screen and (max-width: 1000px){
-    nav {
-        visibility: hidden;
-    }
-    main{
-        margin-left: 0;
-    }
-    header{
-        background-image: none;
-        background-color: #242128;
-    }
-    header #info{
-        z-index: 1;
-        right: unset;
-        top: unset;
-        width: 100%;
-        padding-top: 50px;
-    }
-    header #brain{
-        z-index: 0;
-        visibility: visible;
-        padding-top: 200px;
-    }
-    footer{
-        margin-left: 0;
-    }
-
-
-}
