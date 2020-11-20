@@ -16,6 +16,13 @@ function menuToggle(){
 }
 
 
+$(document).ready(function (){
+    if ($(window).width() < 1000 && menu== false){
+        $('nav').css("transform", "translateX(-200%)");
+
+    }
+});
+
 
 window.onresize = function(event) {
     if ($(window).width() >= 1000){
@@ -29,7 +36,11 @@ window.onresize = function(event) {
 };
 
 $('nav li a').on('click', function () {
-    menu = false;
-    $('nav').css("transform", "translateX(-200%)");
+    if ($(window).width() < 1000){
+        menu = false;
+        $('nav').css("transform", "translateX(-200%)");
+
+    }
+
 
 });

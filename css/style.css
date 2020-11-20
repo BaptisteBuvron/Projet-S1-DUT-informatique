@@ -45,7 +45,7 @@ header #brain img{
 }
 
 
-header #menu{
+#menu{
     position: fixed;
     top: 10px;
     left: 10px;
@@ -127,7 +127,7 @@ main{
 
 
 @media screen and (max-width: 1000px){
-    header #menu{
+    #menu{
         visibility: visible;
     }
     nav {
