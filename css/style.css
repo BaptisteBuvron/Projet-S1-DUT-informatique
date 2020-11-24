@@ -190,7 +190,6 @@ main section{
 
 main section .flex {
     display: grid;
-    align-items: center;
     grid-gap: 50px;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
