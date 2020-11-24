@@ -143,7 +143,7 @@ main{
     }
     header{
         background-image: none;
-        background-color: #242128;
+        background-color: #252330;
     }
     header #info{
         right: unset;
@@ -168,6 +168,7 @@ main{
 main p {
     line-height: 1.6;
     font-size: 1rem;
+    text-align: justify;
 }
 
 main a{
@@ -184,7 +185,7 @@ main a:visited {
 }
 
 main section{
-    /*border-bottom: 1px solid rgba(42,42,42,0.5);*/
+    margin-top: 20px;
 }
 
 main section .flex {
@@ -206,6 +207,9 @@ main section .flex {
 @media screen and (max-width: 1000px){
     main section .flex{
         grid-template-columns: 1fr;
+    }
+    main{
+        padding: 20px;
     }
 }
 
@@ -229,8 +233,8 @@ main .center{
 
 section.grey{
     background-color: #f4f4f4;
-    padding: 20px;
     border-bottom: none;
+    padding: 10px;
 }
 
 footer{
@@ -242,4 +246,17 @@ footer{
     margin-left: 40px;
 }
 
+
+#dobelle{
+    width: 200px;
+}
+
+.text-right{
+    text-align: left;
+}
+
+figcaption{
+    color: grey;
+    font-style: italic;
+}
 
