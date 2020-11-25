@@ -195,7 +195,7 @@ main section{
     margin-top: 20px;
 }
 
-main section .flex {
+main section .grid {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: repeat(2, 1fr);
@@ -204,7 +204,7 @@ main section .flex {
 
 }
 
-.flex.align{
+.grid.align{
     align-items: center;
 }
 
@@ -216,7 +216,7 @@ main section .flex {
 
 
 @media screen and (max-width: 1000px){
-    main section .flex{
+    main section .grid{
         grid-template-columns: 1fr;
     }
     main{
@@ -225,7 +225,7 @@ main section .flex {
 }
 
 
-main section .flex p{
+main section .grid p{
     text-align: justify;
 }
 
