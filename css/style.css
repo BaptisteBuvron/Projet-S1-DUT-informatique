@@ -197,6 +197,10 @@ main section .flex {
 
 }
 
+.flex.align{
+    align-items: center;
+}
+
 .center{
     margin: auto;
 }
