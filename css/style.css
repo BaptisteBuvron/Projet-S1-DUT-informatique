@@ -57,6 +57,13 @@ header #brain img{
 
 }
 
+#arrow{
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    bottom: 20px;
+}
+
 
 nav{
     z-index: 999;
@@ -195,6 +202,10 @@ main section .flex {
     text-align: center;
 
 
+}
+
+.flex.align{
+    align-items: center;
 }
 
 .center{
