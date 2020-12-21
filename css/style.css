@@ -249,6 +249,10 @@ footer{
     margin-left: 22%;
 }
 
+.block{
+    display: block;
+}
+
 .margin{
     margin-left: 40px;
 }
