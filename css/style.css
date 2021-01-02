@@ -304,3 +304,16 @@ figcaption{
 
 
 }
+
+.iframeYt {
+    height: 315px;
+    width: 560px;
+}
+
+.img-40{
+    width: 40%;
+}
+
+.img-60{
+    width: 60%;
+}
