@@ -3,8 +3,8 @@
 html, body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family:  Calibri Light, sans-serif;/*'Open Sans', sans-serif;*/
+    font-size: 18px;
     scroll-behavior: smooth;
 }
 
@@ -21,7 +21,7 @@ header{
 
 header #info{
     position: absolute;
-    right: 200px;
+    right: 110px;
     top: 150px;
     line-height: 20px;
     text-align: center;
@@ -29,10 +29,13 @@ header #info{
 }
 
 header #info h1{
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 10rem; /*4rem*/
+    /*font-weight: 600;*/
 }
 
+header #info p{
+    font-size: 2rem;
+}
 header #brain{
     margin: auto;
     visibility: hidden;
@@ -209,7 +212,7 @@ section.grey{
     padding: 10px;
 }
 
-div h2 { /* pourrait poser problème si alexis a fait des trucs dessus --> à vérifier*/
+div h2, h3 { 
     text-align: left;
 }
 
