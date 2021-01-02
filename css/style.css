@@ -209,6 +209,9 @@ section.grey{
     padding: 10px;
 }
 
+div h2 { /* pourrait poser problème si alexis a fait des trucs dessus --> à vérifier*/
+    text-align: left;
+}
 
 /*
 FOOTER
