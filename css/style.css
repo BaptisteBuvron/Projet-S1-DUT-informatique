@@ -3,14 +3,16 @@
 html, body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family:  Calibri Light, sans-serif;/*'Open Sans', sans-serif;*/
+    font-size: 18px;
     scroll-behavior: smooth;
+    color: #000000;
 }
 
 /*---------HEADER-------------*/
 
 header{
+    
     color: white;
     width: 100%;
     height: 100vh;
@@ -21,7 +23,7 @@ header{
 
 header #info{
     position: absolute;
-    right: 200px;
+    right: 110px;
     top: 150px;
     line-height: 20px;
     text-align: center;
@@ -29,10 +31,13 @@ header #info{
 }
 
 header #info h1{
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 10rem; /*4rem*/
+    /*font-weight: 600;*/
 }
 
+header #info p{
+    font-size: 2rem;
+}
 header #brain{
     margin: auto;
     visibility: hidden;
@@ -42,7 +47,7 @@ header #brain img{
     margin: auto;
     display: block;
     height: auto;
-    width: 250px;
+    width: 400px;
 }
 
 
@@ -69,7 +74,7 @@ nav{
     z-index: 999;
     height: 100%;
     width: 400px;
-    background-color: #45489a;
+    background-color: #63bbbf;
     color: white;
     float: left;
     position: fixed;
@@ -141,6 +146,7 @@ main p {
     line-height: 1.6;
     font-size: 1rem;
     text-align: justify;
+    color: #000000;
 }
 
 main a{
@@ -209,7 +215,7 @@ section.grey{
     padding: 10px;
 }
 
-div h2 { /* pourrait poser problème si alexis a fait des trucs dessus --> à vérifier*/
+div h2, h3 { 
     text-align: left;
 }
 
