@@ -310,12 +310,20 @@ figcaption{
     width: 560px;
 }
 
-.img-40{
-    width: 40%;
+.img-80{
+    width: 80%;
+}
+
+.img-70{
+    width: 70%;
 }
 
 .img-60{
     width: 60%;
+}
+
+.img-40{
+    width: 40%;
 }
 
 .img-30{
